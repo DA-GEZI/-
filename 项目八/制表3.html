@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页面</title>
+	</head>
+	<body>
+		<form action="http://www.baidu.com" method="get">
+		<table>
+			<tr>
+				<td>用户名:</td>
+				<td>
+					<input type="text" name="username" value="xiaohong" maxlength="8" disable="disable" readonly="readonly"/>
+					</td>
+			</tr>
+			<tr>
+				<td>密&nbsp;&nbsp;&nbsp码:</td>
+				<td><input type="password" name="pwd"/></td>
+				</tr>
+				<tr>
+					<td>性&nbsp;&nbsp;&nbsp别:</td>
+					<td>
+						<input type="radio" name="sex" value="w"/>女
+						<input type="radio" name="sex" value="m" checked="checked"/>男
+					</td>
+				</tr>
+				<tr>
+					<td>爱好：</td>
+					<td>
+						<input type="checkbox" name="loves" value="music" checked="checked"/>音乐
+					    <input type="checkbox" name="loves" value="sport" checked="checked"/>运动
+					    <input type="checkbox" name="loves" value="internet"/>网络
+					</td>
+					</tr>
+					<tr>
+						<td>照片</td>
+						<td>
+						<input type="file" value="上传"/>
+						</td>
+					</tr>
+					<tr>
+						<td>备注:</td>
+					<td>
+						<textarea rows="10" cols="30" name="memo">不详...</textarea>
+					</td>
+					</tr>
+				<tr>
+					<td>城市</td>
+					<td>
+					<select name="city" multiple="multiple" size="2"/>
+					<option value="sh">上海</option>
+					<option value="bj">北京</option>
+					<option value="sz">深圳<option>
+					<option value="xa" selected="selected">西安</option>
+				    </select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<input type="submit" value="登录"/>
+					<input type="reset" value="重置"/>
+					<td><input type="button" value="取消"/>
+					<!--<td><input type="image" src="图一.jpg"/><>!-->
+					</td>
+				</tr>
+		</table>
+	</body>
+</html>
